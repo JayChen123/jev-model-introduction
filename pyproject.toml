@@ -1,0 +1,11 @@
+[project]
+name = "jev-demo"
+version = "0.1.0"
+description = "JEV 决策模型教学示例（本地 Qwen3.5-0.8B-JEV）"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.7.1",
+    "transformers==5.5.3",
+    "safetensors>=0.4",
+    "huggingface-hub>=0.25",
+]
